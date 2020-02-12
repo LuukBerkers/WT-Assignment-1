@@ -1,3 +1,7 @@
-.content {
+html {
+	font-family: 'Roboto', sans-serif;
+}
 
+h1, h2 {
+	font-family: 'Roboto Slab', serif;
 }
