@@ -1,6 +1,6 @@
 # WT-Assignment-1
 
-Hosted at luukberkers.github.io/WT-Assignment-1/
+Hosted as a [GitHub Page](luukberkers.github.io/WT-Assignment-1/)
 
 ## Style Guidelines
 
