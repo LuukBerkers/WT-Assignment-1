@@ -2,6 +2,10 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
 h1,
 h2 {
   font-family: "Roboto Slab", serif;
@@ -19,22 +23,11 @@ h2 {
   background-color: hsl(48, 50%, 25%);
 }
 
-/**
- * On non-phones or when phone is in landscape, the navbar element will be
- * listed horizontally
- * 568px is the height of the iPhone 5/5S/SE
- */
-@media only screen and (min-width: 568px) {
-  .navbar li {
-    float: left;
-  }
-}
-
 .navbar a {
   display: block;
   color: #ffffff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 16px;
   text-decoration: none;
 }
 
@@ -44,4 +37,31 @@ h2 {
 
 .navbar__link--current {
   background-color: hsl(48, 100%, 50%);
+}
+
+.content {
+  margin: 8px;
+}
+
+/* 568px is the height of the iPhone 5/5S/SE */
+@media only screen and (min-width: 568px) {
+  /*
+  On non-phones or when phone is in landscape, the navbar element will be 
+  listed horizontally
+  */
+  .navbar li {
+    float: left;
+  }
+
+  .navbar ul {
+    padding: 0 8.25%;
+  }
+
+  .navbar a {
+    padding: 16px;
+  }
+
+  .content {
+    margin: 8px 12.5%;
+  }
 }
