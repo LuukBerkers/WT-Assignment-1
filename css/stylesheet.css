@@ -34,6 +34,6 @@ h1, h2 {
 	background-color: hsl(48, 75%, 37.5%);
 }
 
-.test {
+.navbar__link--current {
 	background-color: hsl(48, 100%, 50%);
 }

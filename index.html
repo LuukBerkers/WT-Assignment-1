@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="js/csi.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap"
       rel="stylesheet"
@@ -12,17 +11,20 @@
     <title>Databases</title>
   </head>
   <body>
-    <!--
-      Gets replaced by the contents of navbar.html by csi.js
-      If it doesn't when loading the page locally, in Firefox this can be fixed
-      by setting privacy.file_unique_origin to false in about:config
-    -->
-    <div data-include="navbar.html"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="navbar__link--current" href="index.html">Home</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="literature.html">Literature</a></li>
+        <li><a href="grading.html">Grading</a></li>
+      </ul>
+    </nav>
     <!-- TODO: I think this should be in an <article> -->
-      <h1>Databases</h1>
-      <h2>Announcements</h2>
-      <p>Allemaal een onvoldoende!</p>
-      <h2>Course Content</h2>
+    <h1>Databases</h1>
+    <h2>Announcements</h2>
+    <p>Allemaal een onvoldoende!</p>
+    <h2>Course Content</h2>
     <p></p>
   </body>
 </html>
