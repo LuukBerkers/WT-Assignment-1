@@ -19,8 +19,12 @@ h2 {
   background-color: hsl(48, 50%, 25%);
 }
 
-/* On non-phones or when phone is in landscape */
-@media only screen and (min-width: 550px) {
+/**
+ * On non-phones or when phone is in landscape, the navbar element will be
+ * listed horizontally
+ * 568px is the height of the iPhone 5/5S/SE
+ */
+@media only screen and (min-width: 568px) {
   .navbar li {
     float: left;
   }
