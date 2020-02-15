@@ -1,39 +1,43 @@
 html {
-	font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-h1, h2 {
-	font-family: 'Roboto Slab', serif;
+h1,
+h2 {
+  font-family: "Roboto Slab", serif;
 }
 
 .navbar {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .navbar ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: hsl(48, 50%, 25%);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(48, 50%, 25%);
 }
 
-.navbar li {
-	float: left;
+/* On non-phones or when phone is in landscape */
+@media only screen and (min-width: 550px) {
+  .navbar li {
+    float: left;
+  }
 }
 
 .navbar a {
-	display: block;
-	color: #ffffff;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .navbar a:hover {
-	background-color: hsl(48, 75%, 37.5%);
+  background-color: hsl(48, 75%, 37.5%);
 }
 
 .navbar__link--current {
-	background-color: hsl(48, 100%, 50%);
+  background-color: hsl(48, 100%, 50%);
 }
