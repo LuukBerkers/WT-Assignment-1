@@ -57,11 +57,12 @@ landscape and anything larger
   }
 
   .navbar ul {
-    padding: 0 8.25%;
+    padding: 6px 8.25%;
   }
 
-  .navbar a {
-    padding: 16px;
+  .navbar a:hover,
+  .navbar__link--current {
+    border-radius: 8px;
   }
 
   .content {
