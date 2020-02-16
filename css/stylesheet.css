@@ -1,3 +1,5 @@
+/* TODO if we have nothing else to do, dark mode detection */
+
 html {
   font-family: "Roboto", sans-serif;
 }
@@ -9,6 +11,18 @@ body {
 h1,
 h2 {
   font-family: "Roboto Slab", serif;
+}
+
+a {
+  color: hsl(48, 100%, 37.5%);
+  /* color: hsl(211, 100%, 50%); */
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(48, 100%, 25%);
+  /* color: hsl(211, 100%, 35%); */
+  text-decoration: underline;
 }
 
 p,
@@ -90,8 +104,9 @@ td {
 }
 
 /*
-667px is the height of the iPhone 6/7/8, so these rules apply for those in
+667px is the height of the iPhone 6/6s/7/8, so these rules apply for those in
 landscape and anything larger
+TODO maybe we should put this in a separate file and import it
 */
 @media only screen and (min-width: 666px) {
   th,
