@@ -11,6 +11,11 @@ h2 {
   font-family: "Roboto Slab", serif;
 }
 
+p,
+td {
+  hyphens: auto;
+}
+
 table {
   border-collapse: collapse;
   margin: 16px 0;
@@ -21,7 +26,6 @@ td {
   padding: 0.375em;
 }
 
-table,
 th,
 td {
   border: 1px solid darkgray;
@@ -90,7 +94,6 @@ td {
 landscape and anything larger
 */
 @media only screen and (min-width: 666px) {
-  table,
   th,
   td {
     border: 2px solid black;
