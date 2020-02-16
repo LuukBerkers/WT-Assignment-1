@@ -13,21 +13,22 @@ h2 {
 
 table {
   border-collapse: collapse;
+  margin: 16px 0;
+}
+
+th, td {
+  padding: .375em;
 }
 
 table,
 th,
 td {
-  /* border: 1px solid #999999; */
-  border: 2px solid black;
+  border: 1px solid #999999;
 }
 
-th {
-  padding: 1em;
-}
-
-td {
-  padding: 0.75em 1em;
+/* To make sure there are is no line break between the month and the day number */
+.date-column__cell {
+  white-space: nowrap;
 }
 
 .navbar {
@@ -67,6 +68,24 @@ td {
 landscape and anything larger
 */
 @media only screen and (min-width: 666px) {
+  table,
+  th,
+  td {
+    border: 2px solid black;
+  }
+
+  table {
+    margin: 16px;
+  }
+
+  th {
+    padding: 1em;
+  }
+  
+  td {
+    padding: 0.75em 1em;
+  }
+
   /*
   On non-phones or when phone is in landscape, the navbar element will be 
   listed horizontally
