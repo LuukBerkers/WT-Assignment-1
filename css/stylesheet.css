@@ -1,15 +1,14 @@
-@import 'mobile.css';
-/*
-667px is the height of the iPhone 6/6s/7/8, so these rules apply for those in
-landscape and anything larger
-TODO maybe we should put this in a separate file and import it
-*/
+@import "mobile.css";
 
 @keyframes loadAnimation{
   from {opacity: 0;}
   to {opacity: 1;}
 }
 
+/*
+667px is the height of the iPhone 6/6s/7/8, so these rules apply for those in
+landscape and anything larger
+*/
 @media only screen and (min-width: 666px) {
   th,
   td {
@@ -52,11 +51,12 @@ TODO maybe we should put this in a separate file and import it
     animation-duration: 1s;
     animation-fill-mode: forwards;
   }
-  .content img{
+
+  .content img {
     content: block;
     border-radius: 50%;
     border: 3px solid hsl(48, 50%, 25%);
-    box-shadow: 10px 15px 0px 0px rgba(0,0,0,0.5);
+    box-shadow: 10px 15px 0px 0px rgba(0, 0, 0, 0.5);
     float: right;
     max-width: 300px;
   }

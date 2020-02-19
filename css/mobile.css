@@ -1,118 +1,121 @@
 /* TODO if we have nothing else to do, dark mode detection */
+
 html {
-    font-family: "Roboto", sans-serif;
-  }
-  
-  body {
-    margin: 0;
-  }
-  
-  h1,
-  h2 {
-    font-family: "Roboto Slab", serif;
-  }
-  
-  a {
-    color: hsl(48, 100%, 37.5%);
-    /* color: hsl(211, 100%, 50%); */
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: hsl(48, 100%, 25%);
-    /* color: hsl(211, 100%, 35%); */
-    text-decoration: underline;
-  }
-  
-  p,
-  td {
-    hyphens: auto;
-  }
-  
-  table {
-    border-collapse: collapse;
-    margin: 16px 0;
-  }
-  
-  th,
-  td {
-    padding: 0.375em;
-  }
-  
-  th,
-  td {
-    border: 1px solid darkgray;
-  }
-  
-  /* To make sure there are is no line break */
-  .date-column__cell,
-  .time-column__cell {
-    white-space: nowrap;
-  }
-  
-  .timeslots {
-    text-align: center;
-  }
-  
-  .timeslots__cell--A {
-    background-color: #ffff99;
-  }
-  
-  .timeslots__cell--B {
-    background-color: #ffcc33;
-  }
-  
-  .timeslots__cell--C {
-    background-color: #ff9999;
-  }
-  
-  .timeslots__cell--D {
-    background-color: #ccccff;
-  }
-  
-  .navbar {
-    font-size: 1.2em;
-  }
-  
-  .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: hsl(48, 50%, 25%);
-  }
-  
-  .navbar a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 12px 16px;
-    text-decoration: none;
-  }
-  
-  .navbar a:hover {
-    background-color: hsl(48, 75%, 37.5%);
-  }
-  
-  .navbar__link--current {
-    background-color: hsl(48, 100%, 50%);
-  }
-  
-  .content {
-    margin: 8px;
-  }
-  .content img{
-    content: block;
-    border-radius: 50%;
-    border: 3px solid hsl(48, 50%, 25%);
-    box-shadow: 10px 15px 0px 0px rgba(0,0,0,0.5);
-    float: right;
-    max-width: 150px;
-    max-height: auto;
-  }
-  #map {
-    width: 90%;
-    height: 500px;
-    margin: auto;
-    background-color: grey;
-  }
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Roboto Slab", serif;
+}
+
+a {
+  color: hsl(48, 100%, 37.5%);
+  /* color: hsl(211, 100%, 50%); */
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(48, 100%, 25%);
+  /* color: hsl(211, 100%, 35%); */
+  text-decoration: underline;
+}
+
+p,
+td {
+  hyphens: auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 16px 0;
+}
+
+th,
+td {
+  padding: 0.375em;
+}
+
+th,
+td {
+  border: 1px solid darkgray;
+}
+
+/* To make sure there are is no line break */
+.date-column__cell,
+.time-column__cell {
+  white-space: nowrap;
+}
+
+.timeslots {
+  text-align: center;
+}
+
+.timeslots__cell--A {
+  background-color: #ffff99;
+}
+
+.timeslots__cell--B {
+  background-color: #ffcc33;
+}
+
+.timeslots__cell--C {
+  background-color: #ff9999;
+}
+
+.timeslots__cell--D {
+  background-color: #ccccff;
+}
+
+.navbar {
+  font-size: 1.2em;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(48, 50%, 25%);
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: hsl(48, 75%, 37.5%);
+}
+
+.navbar__link--current {
+  background-color: hsl(48, 100%, 50%);
+}
+
+.content {
+  margin: 8px;
+}
+
+.content img {
+  content: block;
+  border-radius: 50%;
+  border: 3px solid hsl(48, 50%, 25%);
+  box-shadow: 10px 15px 0px 0px rgba(0, 0, 0, 0.5);
+  float: right;
+  max-width: 150px;
+  max-height: auto;
+}
+
+#map {
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  background-color: grey;
+}
