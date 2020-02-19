@@ -104,13 +104,12 @@ td {
 }
 
 .content img {
-  content: block;
+  display: block;
   border-radius: 50%;
   border: 3px solid hsl(48, 50%, 25%);
   box-shadow: 10px 15px 0px 0px rgba(0, 0, 0, 0.5);
   float: right;
   max-width: 150px;
-  max-height: auto;
 }
 
 #map {
