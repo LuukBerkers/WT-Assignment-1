@@ -4,7 +4,8 @@ Hosted as a [GitHub Page](http://luukberkers.github.io/WT-Assignment-1/)
 
 ## Style Guidelines
 
-- Language: English
+- Content language: Dutch
+- Meta language: English
 - [Title case](http://titlecase.com/) in headings
 - Indentation: 2 spaces
 - Try to keep lines at a maximum of 80 columns

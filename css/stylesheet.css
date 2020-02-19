@@ -1,8 +1,12 @@
 @import "mobile.css";
 
-@keyframes loadAnimation{
-  from {opacity: 0;}
-  to {opacity: 1;}
+@keyframes loadAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*
