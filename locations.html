@@ -23,19 +23,33 @@
       </ul>
     </nav>
     <div class="content">
-      <h1>Locations</h1>
-      <p> Lessen vinden plaats in het Victor J. Koningsbergergebouw. Deze kan worden gevonden op de volgende locatie:</p>
+      <article>
+        <h1>Locations</h1>
+        <p>
+          Lessen vinden plaats in het Victor J. Koningsbergergebouw. Deze kan
+          worden gevonden op de volgende locatie:
+        </p>
+        <div id="map"></div>
+        <!--
+          Dit is een gratis versie van Google Maps. Vandaar dat deze niet
+          helemaal correct laadt op de pagina.
+        -->
+        <script>
+          function initMap() {
+            var kbg = { lat: 52.087465, lng: 5.167418 };
+            var map = new google.maps.Map(document.getElementById("map"), {
+              zoom: 17,
+              center: kbg
+            });
+            var marker = new google.maps.Marker({ position: kbg, map: map });
+          }
+        </script>
+        <script
+          async
+          defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqjZWAEeGMNCaGgvouT2mJ1RYpZiO4BFY&callback=initMap"
+        ></script>
+      </article>
     </div>
-    <div id="map"></div>
-    <script>
-      //Dit is een gratis versie van Google Maps. Vandaar dat deze niet helemaal correct laadt op de pagina.
-      function initMap() {
-        var kbg = {lat: 52.087465, lng: 5.167418};
-        var map = new google.maps.Map(
-            document.getElementById('map'), {zoom:17, center: kbg});
-        var marker = new google.maps.Marker({position: kbg, map: map});
-      }
-      </script>
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqjZWAEeGMNCaGgvouT2mJ1RYpZiO4BFY&callback=initMap"></script>
   </body>
 </html>

@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 32px;
+}
+
 h1,
 h2 {
   font-family: "Roboto Slab", serif;
@@ -113,8 +117,8 @@ td {
 }
 
 #map {
-  width: 90%;
-  height: 500px;
-  margin: auto;
+  width: 93.75%;
+  height: 512px;
   background-color: grey;
+  margin: auto;
 }
