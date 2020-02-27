@@ -84,6 +84,7 @@ td {
 
 .header h1 {
   color: white;
+  margin: 0;
   position: relative;
   left: 50px;
   top: 70px;
