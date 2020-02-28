@@ -75,15 +75,24 @@ td {
   background-color: #ccccff;
 }
 
+.top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 16;
+}
+
+header {
+  background-color: white;
+}
+
 header h1 {
-  margin: 16px;
+  margin: 0;
+  padding: 16px;
   font-size: 3em;
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   background-color: hsl(48, 50%, 25%);
   color: white;

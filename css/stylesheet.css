@@ -50,7 +50,7 @@ landscape and anything larger
   }
 
   .content {
-    margin: 8px 12.5%;
+    margin: 192px 12.5% 8px 12.5%;
     animation-name: loadAnimation;
     animation-duration: 1s;
     animation-fill-mode: forwards;
