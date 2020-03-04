@@ -48,9 +48,13 @@ landscape and anything larger
   .navbar__link--current {
     border-radius: 8px;
   }
-
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
   .content {
-    margin: 192px 12.5% 8px 12.5%;
+    margin: 8px 12.5% 100px 12.5%;
     animation-name: loadAnimation;
     animation-duration: 1s;
     animation-fill-mode: forwards;
