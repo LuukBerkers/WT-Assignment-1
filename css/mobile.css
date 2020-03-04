@@ -4,8 +4,15 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+html,
 body {
+  height: 100%;
   margin: 0;
+}
+
+body{ 
+  display:flex;
+  flex-direction:column;
 }
 
 h1 {
@@ -93,6 +100,7 @@ header h1 {
 }
 
 footer {
+  padding: 2px 0;
   width: 100%;
   background-color: hsl(48, 50%, 25%);
   color: white;
