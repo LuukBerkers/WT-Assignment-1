@@ -65,6 +65,36 @@ function fillPage() {
     link = makeElementWithText("a", listItem, links.names[i]);
     link.setAttribute("href", links.locations[i]);
   }
+
+  // Content
+  var content = makeElement("div", body);
+  var article = makeElement("article", content);
+  article.setAttribute("class", "content");
+  makeElementWithText("h1", article, "Info");
+  makeElementWithText(
+    "p",
+    article,
+    "Deze website bevat informatie over de cursus databases.\
+    De site is gebaseerd op de informatie over de echte cursus databases van\
+    Hans Philippi en ontwikkeld door Mark Looije, Thijs Rademaker en Luuk\
+    Berkers."
+  );
+  makeElementWithText(
+    "p",
+    article,
+    "De body van deze pagina is volledig gegenereerd door JavaScript."
+  );
+
+  // Footer
+  var footer = makeElement("footer", body);
+  makeElementWithText(
+    "p",
+    footer,
+    "Beschikbaar gesteld door: Luuk, Mark en Thijs"
+  );
+  var contactInfo = makeElementWithText("p", footer, "Contactinformatie: ");
+  var email = makeElementWithText("a", contactInfo, "fakemail@gmail.com");
+  email.setAttribute("href", "mailto:fakemail@gmail.com");
 }
 
 window.addEventListener("load", fillPage, false);
