@@ -36,6 +36,14 @@ function makeElementWithText(tag, parent, text) {
 }
 
 function fillPage() {
+  //Ik weet niet of dit klopt en heb het niet kunnen testen, maar zo moet de implementatie volgens mij
+  var Teacher = new Teacher("T. Est", "30", "5", "INFODB", "SomeLink");
+  var Course = new Course("Databases", "INFODB", Teacher, "7.5ETC", "3", "AD");
+
+
+  //Dit moet in de verdere function dan gebruikt worden als Course.title etc 
+
+
   var body = document.querySelector("body");
 
   // Header
