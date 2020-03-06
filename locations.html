@@ -8,6 +8,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    <script src="js/changelayout.js"></script>
     <title>Databases - Locaties</title>
   </head>
   <body>
@@ -54,14 +55,21 @@
           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqjZWAEeGMNCaGgvouT2mJ1RYpZiO4BFY&callback=initMap"
         ></script>
       </article>
-      <div id="map"></div>
     </div>
+    <div id="map"></div>
     <footer>
       <p>Beschikbaar gesteld door: Luuk, Mark en Thijs</p>
       <p>
         Contactinformatie:
         <a href="mailto:fakemail@gmail.com">fakemail@gmail.com</a>
       </p>
+      <p>
+        Verander de layout:
+      </p>
+      <select id="elementDropdown"></select>
+      <input id="colorField" type="textfield" placeholder="#000000"/>
+      <input id="fontField" type="textfield" placeholder="10 - 19px"/>
+      <input id="changeButton" type="button" value="Verander"/>
     </footer>
   </body>
 </html>
